@@ -42,9 +42,11 @@ If the link doesn't work, don't hesitate to get in touch with me and I'll enable
 
 7. Compile css files.
 
-`cd web/themes/custom/ps
-ddev npm install
-ddev npm run compile`
+`cd web/themes/custom/ps`
+
+`ddev npm install`
+
+`ddev npm run compile`
 
 8. Run project
 

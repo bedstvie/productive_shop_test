@@ -1,56 +1,75 @@
 <img alt="Drupal Logo" src="https://www.drupal.org/files/Wordmark_blue_RGB.png" height="60px">
 
-It is a test project to company [Productive Shop][ProductiveShop]
+Drupal is an open source content management platform supporting a variety of
+websites ranging from personal weblogs to large community-driven websites. For
+more information, visit the Drupal website, [Drupal.org][Drupal.org], and join
+the [Drupal community][Drupal community].
 
-## Test task
+## Contributing
 
-The test task available by [link][TestTask].
+Drupal is developed on [Drupal.org][Drupal.org], the home of the international
+Drupal community since 2001!
 
-## Project review
+[Drupal.org][Drupal.org] hosts Drupal's [GitLab repository][GitLab repository],
+its [issue queue][issue queue], and its [documentation][documentation]. Before
+you start working on code, be sure to search the [issue queue][issue queue] and
+create an issue if your aren't able to find an existing issue.
 
-The project was developed on DDEV.
-The localhost environment is shared by [Egrok][Egrok].
-This link is temporary. It can be available only when my PC is working.
-If the link doesn't work, don't hesitate to get in touch with me and I'll enable my PC.
+Every issue on Drupal.org automatically creates a new community-accessible fork
+that you can contribute to. Learn more about the code contribution process on
+the [Issue forks & merge requests page][issue forks].
 
-## Credential
+## Usage
 
-**_Super admin_**: admin / hyzqqWGJLqB9P8D
+For a brief introduction, see [USAGE.txt](/core/USAGE.txt). You can also find
+guides, API references, and more by visiting Drupal's [documentation
+page][documentation].
 
-## Instruction to install at localhost
+You can quickly extend Drupal's core feature set by installing any of its
+[thousands of free and open source modules][modules]. With Drupal and its
+module ecosystem, you can often build most or all of what your project needs
+before writing a single line of code.
 
-1. Navigate to your "projects" directory.
-2. Clone repository from [GitHub][Repo].
+## Changelog
 
-`git clone https://github.com/bedstvie/productive_shop_test.git`
+Drupal keeps detailed [change records][changelog]. You can search Drupal's
+changes for a record of every notable breaking change and new feature since
+2011.
 
-3. Switch to productive_shop_test directory.
+## Security
 
-`cd productive_shop_test`
+For a list of security announcements, see the [Security advisories
+page][Security advisories] (available as [an RSS feed][security RSS]). This
+page also describes how to subscribe to these announcements via email.
 
-4. Start project in ddev.
+For information about the Drupal security process, or to find out how to report
+a potential security issue to the Drupal security team, see the [Security team
+page][security team].
 
-`ddev start`
+## Need a helping hand?
 
-5. Update libraries and packets via composer.
+Visit the [Support page][support] or browse [over a thousand Drupal
+providers][service providers] offering design, strategy, development, and
+hosting services.
 
-`ddev composer update --prefer-dist`
+## Legal matters
 
-6. Import database via command or install manually using phpmyadmin. Database preset in repository in backups directory.
+Know your rights when using Drupal by reading Drupal core's
+[license](/core/LICENSE.txt).
 
-`ddev import-db --file=backups/db.sql`
+Learn about the [Drupal trademark and logo policy here][trademark].
 
-7. Compile css files.
-
-`cd web/themes/custom/ps
-ddev npm install
-ddev npm run compile`
-
-8. Run project
-
-`ddev launch`
-
-[ProductiveShop]: https://productiveshopdev.kinsta.cloud/seo-case-studies
-[TestTask]: https://docs.google.com/document/d/19hzaEJ4O75dNfRouJg9U1N-WjAV7ArssE7FWg5GQp04/edit?tab=t.0
-[Egrok]: https://f11b-193-194-127-198.ngrok-free.app
-[Repo]: https://github.com/bedstvie/productive_shop_test
+[Drupal.org]: https://www.drupal.org
+[Drupal community]: https://www.drupal.org/community
+[GitLab repository]: https://git.drupalcode.org/project/drupal
+[issue queue]: https://www.drupal.org/project/issues/drupal
+[issue forks]: https://www.drupal.org/drupalorg/docs/gitlab-integration/issue-forks-merge-requests
+[documentation]: https://www.drupal.org/documentation
+[changelog]: https://www.drupal.org/list-changes/drupal
+[modules]: https://www.drupal.org/project/project_module
+[security advisories]: https://www.drupal.org/security
+[security RSS]: https://www.drupal.org/security/rss.xml
+[security team]: https://www.drupal.org/drupal-security-team
+[service providers]: https://www.drupal.org/drupal-services
+[support]: https://www.drupal.org/support
+[trademark]: https://www.drupal.com/trademark

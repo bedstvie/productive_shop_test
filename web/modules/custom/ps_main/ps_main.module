@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ * Contains main functions and hooks for ps_main module.
+ */
+
+use Drupal\Core\Access\AccessResult;
+use Drupal\Core\Session\AccountInterface;
+use Drupal\block\Entity\Block;
+use Drupal\node\NodeInterface;
+
+/**
+ * Implements hook_block_access().
+ */
+function ps_main_block_access(Block $block, $operation, AccountInterface $account) {
+  $route_match = \Drupal::routeMatch();
+
+  // Check if the current route is Block Layout.
+  $route_name = $route_match->getRouteName();
+  if ($route_name == 'entity.node.canonical') {
+    // Check if the route has a 'node' parameter.
+    $node = $route_match->getParameter('node');
+    // Ensure it's a node entity.
+    if (empty($node) || !($node instanceof NodeInterface) || $node->bundle() != 'page') {
+      return AccessResult::forbidden()->addCacheableDependency($block);
+    }
+  }
+
+  return AccessResult::neutral();
+}

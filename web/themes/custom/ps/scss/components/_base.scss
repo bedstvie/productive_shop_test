@@ -1,0 +1,124 @@
+/*
+Theme Name: Bootstrap 4 Sass
+Description: Bootstrap 4 with Sass
+*/
+
+/* GENERAL STYLES
+-------------------------------------------------*/
+
+body {
+  background: $body-bg;
+}
+
+:root,
+[data-bs-theme=light] {
+  --bs-body-font-family: "Source Sans 3", var(--bs-font-sans-serif);
+  color: $white;
+}
+
+/* COLORS
+--------------------------------------------------*/
+
+a {
+    color: $accent-shade;
+}
+
+.bg-inverse {
+    background: $primary-shade !important;
+}
+
+.card-group img {
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.card-group .field--type-image {
+    margin: 0
+}
+
+.slick {
+    width: 100%;
+}
+
+.slick>div {
+    margin: 0 15px;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm {
+  @include media-breakpoint-up(sm) {
+    max-width: 100%;
+    margin: auto 1em;
+  }
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  @include media-breakpoint-up(lg) {
+    max-width: 1192px;
+    margin: auto;
+  }
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  @include media-breakpoint-up(xxl) {
+    max-width: 1292px;
+  }
+}
+
+.layout--twocol-section {
+  align-items: center;
+}
+
+.layout--twocol-section--50-50 {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 55px;
+
+  @include media-breakpoint-down(sm) {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+}
+
+.layout-builder-block {
+  background-color: $dark-blue;
+}
+
+h1, h2, h3 {
+  --bb-h1-color: $white;
+  --bb-h2-color: $white;
+  --bb-h3-color: $white;
+}
+
+h1 {
+  &.block-title {
+    font-weight: 500;
+    font-size: 3.2em;
+  }
+}
+
+h2 {
+  &.block-title {
+    font-weight: 400;
+    font-size: 2.7em;
+  }
+}
+h3 {
+  &.block-title {
+    font-weight: 300;
+    font-size: 2.2em;
+  }
+}

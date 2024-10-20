@@ -1,0 +1,25 @@
+uuid: c8bd3fbc-34a0-4bf6-b43c-14951acc0d37
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ps
+_core:
+  default_config_hash: NxUmcGUQv9sG6gMaL64pyp90_wXgdY3YJakX27471MY
+id: ps_site_branding
+theme: ps
+region: primary_menu
+weight: -4
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

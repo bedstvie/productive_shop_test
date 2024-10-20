@@ -1,0 +1,19 @@
+{#
+/**
+ * @file
+ * Overridden block template for all blocks placed via Layout Builder.
+ *
+ * This override hijacks the normal heading level and label display mechanism
+ * and allows for:
+ *  - Certain HTML to be included in the `heading` variable.
+ *  - Heading levels 1, 2, 3, 4, 5, and 6 to be used on a per-block basis.
+ *  - Heading styles to be set on a per-block basis.
+ */
+#}
+{% if content %}
+  <div{{ attributes.addClass('block','block--' ~ plugin_id|clean_class) }}>
+    {% block content %}
+      {{ content }}
+    {% endblock %}
+  </div>
+{% endif %}

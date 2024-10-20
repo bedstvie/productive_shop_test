@@ -6,8 +6,8 @@
 # https://www.drupal.org/docs/develop/using-composer
 
 # Ignore configuration files that may contain sensitive information
-/web/sites/*/*settings*.php
-/web/sites/*/*services*.yml
+#/web/sites/*/*settings*.php
+#/web/sites/*/*services*.yml
 
 # Ignore paths that may contain user-generated content
 /web/sites/*/files
@@ -60,3 +60,21 @@
 /drush
 /drupal.phar
 /drupal
+
+/web/modules/contrib/
+/web/themes/contrib/
+/web/libraries/*
+
+/web/themes/custom/ps/node_modules
+
+#Compiled files
+/web/themes/custom/ps/css
+
+# Ignore osx file fingerprints
+.DS_Store
+
+# Ignore gitlab access token commits
+auth.json
+.idea
+
+!/web/sites/*/files/images

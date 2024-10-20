@@ -1,0 +1,17 @@
+uuid: 0b4a72c2-423a-466c-a4f0-a1554c52a1ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Langing page'
+type: page
+description: null
+help: null
+new_revision: false
+preview_mode: 0
+display_submitted: false

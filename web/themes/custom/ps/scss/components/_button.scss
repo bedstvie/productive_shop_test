@@ -1,0 +1,26 @@
+.btn {
+  --bs-btn-padding-x: 1.25rem;
+  --bs-btn-padding-y: 0.75rem;
+}
+
+.btn-primary {
+  --bs-primary: #D1F960;
+  --bb-primary-text: #152430;
+  --bb-primary-dark: #343a40;
+}
+
+.btn-secondary {
+  --bs-primary: #690F73;
+  --bb-secondary-text: #152430;
+}
+
+.btn-link {
+  padding: 0;
+  --bs-link-color: $white;
+  font-size: 1.5em;
+  text-decoration: underline;
+
+  &:hover {
+    color: #343a40;
+  }
+}

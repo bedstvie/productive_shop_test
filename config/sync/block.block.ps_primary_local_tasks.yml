@@ -1,0 +1,22 @@
+uuid: 03d10f6c-3f13-4087-8195-f9a73f82c408
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ps
+_core:
+  default_config_hash: 45-NgspzAV22ueuLGhp5lWLhYHPdTW6Kgxxgs0PT0Kc
+id: ps_primary_local_tasks
+theme: ps
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: b8a7236a-2949-4f82-8992-f2581cbf6389
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ps
+_core:
+  default_config_hash: tGLIfxYC4B-9uDXIrzD6m9XZGKDP9t2WLzw2B3B8kZ0
+id: ps_messages
+theme: ps
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

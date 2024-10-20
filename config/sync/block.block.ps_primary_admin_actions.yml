@@ -1,0 +1,20 @@
+uuid: 79b85965-f54d-4dd5-8793-a773da4adfeb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ps
+_core:
+  default_config_hash: xY1OZhzuwQv6zZdttUww3RZwvdh9yG98yCJ1Ko8VsM8
+id: ps_primary_admin_actions
+theme: ps
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,10 @@
+name: Productive Shop
+description: Productive Shop main custom module.
+type: module
+package: Custom
+core_version_requirement: ^10
+
+dependencies:
+  - drupal:block
+  - drupal:layout_builder
+  - drupal:extra_field_plus

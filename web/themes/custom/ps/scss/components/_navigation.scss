@@ -1,0 +1,105 @@
+.navbar-dark,
+.navbar[data-bs-theme=dark] {
+  --bs-navbar-active-color: $dark-blue;
+  --bs-navbar-brand-color: $dark-blue;
+  --bs-navbar-brand-hover-color: $dark-blue;
+  --bs-navbar-hover-color: $dark-blue;
+  --bs-navbar-toggler-border-color: $dark-blue;
+}
+
+.nav-link {
+  background-color: #ccc;
+
+  &:focus,
+  &:hover {
+    color: #666;
+  }
+}
+
+.navbar {
+  --bs-navbar-brand-font-size: 1.35rem;
+
+  .nav-link {
+    background-color: transparent;
+  }
+}
+
+.navbar-nav {
+  --bs-nav-link-color: #2c2c2c;
+  --bs-nav-link-font-size: 1.15em;
+  --bs-nav-link-font-weight: 400;
+
+  .nav-link {
+    &.active,
+    &.show {
+      color: #666;
+    }
+  }
+}
+
+#navbar-main {
+  .container {
+    background-color: $white;
+    padding: 22px 32px;
+    border-radius: 5px;
+
+    .navbar-brand {
+      .img-fluid {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.dropdown-toggle {
+  &:after {
+    border: none;
+    content: '';
+    background-image: url("../images/link-arrow.png");
+    background-size: cover;
+    vertical-align: middle;
+    margin-top: -4px;
+    width: 10px;
+    height: 5px;
+  }
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+  @include media-breakpoint-down(xl) {
+    padding-left: 0;
+  }
+}
+
+.navbar-nav {
+  gap: 0;
+
+  @include media-breakpoint-up(lg) {
+    gap: 0.2em;
+  }
+
+  @include media-breakpoint-up(xl) {
+    gap: 1em;
+  }
+}
+
+.navbar-toggler {
+  background-color: $gray-800;
+}
+
+.navbar-brand {
+  display: none;
+
+  @include media-breakpoint-down(sm) {
+    display: block;
+  }
+}
+
+.navbar-collapse {
+  .navbar-brand {
+    display: block;
+
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+  }
+}

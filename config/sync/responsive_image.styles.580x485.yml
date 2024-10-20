@@ -1,0 +1,22 @@
+uuid: 18ab5997-e9de-4325-b59d-6650b3dbd023
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.580x485
+    - image.style.medium
+  theme:
+    - bootstrap
+id: 580x485
+label: 580x485
+image_style_mappings:
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - medium
+    breakpoint_id: bootstrap.large
+    multiplier: 2x
+breakpoint_group: bootstrap
+fallback_image_style: 580x485

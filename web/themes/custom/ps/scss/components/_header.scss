@@ -1,0 +1,22 @@
+.client-button {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: $dark-blue;
+  text-wrap: nowrap;
+
+  .content {
+    a {
+      padding: 0.5em;
+      border: 1px solid #4A49A3;
+      border-radius: 5px;
+
+      @include media-breakpoint-up(lg) {
+        padding: 0.5em 1em;
+      }
+
+      @include media-breakpoint-up(xl) {
+        padding: 0.5em 2em;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+uuid: d9dc968e-6e69-4663-a259-da0d884c0708
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - ps
+_core:
+  default_config_hash: Bkc0fpJbpqVQFPMN6xdPbIEnMz3O72r9Oe1JR6fuEfg
+id: ps_main_menu
+theme: ps
+region: primary_menu
+weight: -3
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

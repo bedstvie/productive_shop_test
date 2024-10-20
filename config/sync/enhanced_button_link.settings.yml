@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: dO7ksVrRzn4zZIbRkzcsdk-J7S6XyCVtEXXEw4JybMg
+button_link_styles:
+  btn-primary: 'Primary Button'
+  btn-secondary: 'Secondary Button'
+  btn-link: 'Link Button'
+override_type: 1
+override_size: 1
+override_status: 0
+override_target: 1

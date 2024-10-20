@@ -1,0 +1,26 @@
+uuid: b054d0e1-6060-4a57-8038-ce46cf9ff962
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ps
+_core:
+  default_config_hash: 7c9JPD8zx3XExbe5F5EDMbuSxT3AUJOYIEvOBmyrc4A
+id: ps_page_title
+theme: ps
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

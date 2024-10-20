@@ -1,0 +1,14 @@
+uuid: 8ae94234-1820-49df-9ca8-625fd1a57a16
+langcode: en
+status: true
+dependencies: {  }
+name: 580x485
+label: 580x485
+effects:
+  6517b12d-17e3-4edf-967e-952292302015:
+    uuid: 6517b12d-17e3-4edf-967e-952292302015
+    id: image_resize
+    weight: 1
+    data:
+      width: 580
+      height: 485

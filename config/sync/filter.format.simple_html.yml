@@ -1,0 +1,27 @@
+uuid: 1afb2f9b-7552-4470-9e44-049d65dd6c21
+langcode: en
+status: true
+dependencies: {  }
+name: 'Simple HTML'
+format: simple_html
+weight: 0
+filters:
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }
+  filter_image_lazy_load:
+    id: filter_image_lazy_load
+    provider: filter
+    status: true
+    weight: 15
+    settings: {  }
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: true
+    weight: 0
+    settings:
+      filter_url_length: 72

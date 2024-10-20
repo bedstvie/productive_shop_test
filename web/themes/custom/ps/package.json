@@ -1,0 +1,53 @@
+{
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "@splidejs/splide": "^4.1.4",
+    "autoprefixer": "^9.0.0",
+    "babel-loader": "^8.2.2",
+    "bootstrap": "^5.0.1",
+    "cssnano": "^5.0.2",
+    "glob": "^7.1.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-if": "^3.0.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-twig": "^1.2.0",
+    "path": "^0.12.7",
+    "postcss": "^8.1.9",
+    "postcss-import": "12.0.1",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-scss": "^3.19.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "scripts": {
+    "compile": "gulp styles",
+    "watch": "gulp",
+    "lintjs": "gulp lintjs",
+    "lintjsfix": "gulp jslint --fix",
+    "lintscss": "gulp lintscss",
+    "webpack": "webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-drupal": "^5.0.2",
+    "eslint-plugin-import": "^2.23.3",
+    "gulp-babel": "^8.0.0",
+    "gulp-stylelint": "^13.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.77.8",
+    "stylelint": "^13.13.1"
+  }
+}

@@ -1,0 +1,22 @@
+uuid: 6817870e-f127-4d42-a012-163de995c6e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ps
+_core:
+  default_config_hash: OsuaX8B-Oqw8xHD1BhBrgPvsD598QwH6RkIFmslFVAM
+id: ps_breadcrumbs
+theme: ps
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 32d47a66-dc7f-4280-8f27-314fe20a9bd5
+langcode: en
+status: true
+dependencies:
+  module:
+    - ps_main
+  theme:
+    - ps
+id: ps_buttonblock
+theme: ps
+region: header_form
+weight: -5
+provider: null
+plugin: ps_button_block
+settings:
+  id: ps_button_block
+  label: 'Button Block'
+  label_display: '0'
+  provider: ps_main
+  link_label: 'Become A Client'
+  link_url: 'https://example.com'
+visibility: {  }

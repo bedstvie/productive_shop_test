@@ -1,0 +1,17 @@
+uuid: 61bd77f8-1955-4625-8bbe-cd93198d126b
+langcode: en
+status: true
+dependencies:
+  module:
+    - layout_builder_block_headings
+third_party_settings:
+  layout_builder_block_headings:
+    heading_field: field_heading
+    heading_level_field: field_tag
+    heading_style_field: ''
+    allow_heading_level_customization: true
+    allow_heading_style_customization: false
+id: hero
+label: 'Section Hero'
+revision: false
+description: null

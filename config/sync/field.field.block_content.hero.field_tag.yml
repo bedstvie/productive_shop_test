@@ -1,0 +1,23 @@
+uuid: f64a899c-c7bf-49db-9e0f-cf090cd69978
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero
+    - field.storage.block_content.field_tag
+  module:
+    - options
+id: block_content.hero.field_tag
+field_name: field_tag
+entity_type: block_content
+bundle: hero
+label: Tag
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: h2
+default_value_callback: ''
+settings: {  }
+field_type: list_string

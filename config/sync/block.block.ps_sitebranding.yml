@@ -1,0 +1,23 @@
+uuid: a83bb5b9-d593-4f5a-add7-433bb5922143
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ps
+id: ps_sitebranding
+theme: ps
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

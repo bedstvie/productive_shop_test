@@ -67,17 +67,7 @@ third_party_settings:
                 label: hidden
                 settings: {  }
                 third_party_settings: {  }
-            weight: 2
-            additional: {  }
-          2396987a-8ad9-4358-a496-2ec23b4e1746:
-            uuid: 2396987a-8ad9-4358-a496-2ec23b4e1746
-            region: first
-            configuration:
-              id: 'extra_field_block:block_content:hero:extra_field_layout_builder_block_headings_extra_field'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-            weight: 1
+            weight: 3
             additional: {  }
           f4cd8b86-b8ac-4861-9c51-5ee4f67b76d6:
             uuid: f4cd8b86-b8ac-4861-9c51-5ee4f67b76d6
@@ -102,8 +92,26 @@ third_party_settings:
                   rel: ''
                   inline_buttons: 0
                 third_party_settings: {  }
-            weight: 3
+            weight: 4
             additional: {  }
+          39fa4d47-1fbf-4532-8fb5-4424d60630f2:
+            uuid: 39fa4d47-1fbf-4532-8fb5-4424d60630f2
+            region: first
+            configuration:
+              id: 'extra_field_block:block_content:hero:extra_field_layout_builder_block_headings'
+              label: 'Block Heading'
+              label_display: ''
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                settings: {  }
+                third_party_settings: {  }
+            weight: 2
+            additional:
+              extra_field_plus_settings:
+                tag: ''
+                style: block-title
         third_party_settings: {  }
   layout_builder_restrictions:
     allowed_block_categories: {  }
@@ -191,5 +199,6 @@ content:
     weight: 0
     region: content
 hidden:
+  extra_field_layout_builder_block_headings: true
   field_heading: true
   field_tag: true

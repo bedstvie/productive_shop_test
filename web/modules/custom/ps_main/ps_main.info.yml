@@ -6,5 +6,3 @@ core_version_requirement: ^10
 
 dependencies:
   - drupal:block
-  - drupal:layout_builder
-  - drupal:extra_field_plus
